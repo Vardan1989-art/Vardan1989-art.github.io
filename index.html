@@ -67,7 +67,7 @@
 header{max-width:1180px;margin:auto;padding:24px 28px;display:flex;justify-content:space-between;align-items:center}
 .brand{font-size:18px;font-weight:700;text-decoration:none;color:inherit;letter-spacing:-.03em}
 nav{display:flex;gap:26px;font-size:14px}nav a{text-decoration:none;color:#334a68}nav .active{font-weight:700;color:var(--ink)}
-.hero-wrap{border-top:1px solid var(--line);border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero-wrap{border-bottom:1px solid var(--line);position:relative;overflow:hidden}
 .hero{
   max-width:1180px;
   margin:auto;
@@ -93,15 +93,15 @@ h1{font-size:clamp(36px,4vw,52px);line-height:1.05;letter-spacing:-.045em;margin
 .copy a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(11,59,130,.28)}
 .copy a:hover{border-bottom-color:var(--accent)}
 .appointments{margin:0 0 40px}
-.appointments-group{margin:0 0 28px}
+.appointments-group{margin:0}
 .appointments-group:last-child{margin-bottom:0}
 .appointments h3{margin:0 0 14px;font-size:15px;line-height:1.4;color:var(--ink);letter-spacing:-.01em}
-.appointment{display:grid;grid-template-columns:105px 1fr;gap:18px;padding:16px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.65;color:var(--muted)}
-.appointments-group .appointment:last-child{border-bottom:1px solid var(--line)}
+.appointment{display:grid;grid-template-columns:105px 1fr;gap:18px;padding:8px 0;font-size:14px;line-height:1.65;color:var(--muted)}
+.appointments-group .appointment:last-child{}
 .appointment .years{font-weight:700;color:var(--accent)}
 .appointment strong{color:var(--ink)}
 @media(max-width:560px){.appointment{grid-template-columns:1fr;gap:4px}}
-footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:30px 28px 40px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+footer{max-width:1180px;margin:auto;padding:30px 28px 40px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
 @media(max-width:760px){header{display:block}nav{margin-top:16px;gap:14px;flex-wrap:wrap}.hero{grid-template-columns:1fr;gap:40px}.photo{max-width:310px}.about{grid-template-columns:1fr;gap:24px}}
 
 
@@ -156,9 +156,9 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:30p
 <div class="links"><a href="https://scholar.google.ru/citations?user=ouARvqwAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a><a href="https://www.researchgate.net/profile/Vardan-Arutiunian" rel="noopener noreferrer" target="_blank">ResearchGate</a><a href="https://www.linkedin.com/in/vardan-arutiunian-287647382/" rel="noopener noreferrer" target="_blank">LinkedIn</a></div></div>
 </section></div>
 <section class="about"><h2>About Me</h2><div class="copy">
-<div class="appointments">
+<div class="appointments"><h3>Academic Positions</h3>
 <div class="appointments-group">
-<h3>Current Position</h3>
+
 <div class="appointment">
 <div class="years">2025–Present</div>
 <div>
@@ -170,7 +170,7 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:30p
 </div>
 </div>
 <div class="appointments-group">
-<h3>Previous Positions</h3>
+
 <div class="appointment">
 <div class="years">2022–2025</div>
 <div>
@@ -189,7 +189,6 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:30p
 </div>
 </div>
 </div>
-
 <p>I am a Postdoctoral Fellow in the <a href="https://ned.umontreal.ca/en" rel="noopener noreferrer" target="_blank">Neuroscience of Early Development Laboratory</a> at the Azrieli Research Center of CHU Sainte-Justine and the University of Montreal (Montreal, Canada). I received my Ph.D. in Linguistics from the <a href="https://www.hse.ru/en/neuroling/" rel="noopener noreferrer" target="_blank">Center for Language and Brain</a> at HSE University (Moscow, Russia), where my research focused on language and communication impairments in autistic children. I subsequently completed postdoctoral training in the <a href="https://www.seattlechildrens.org/research/centers-programs/child-health-behavior-and-development/labs/pbs-lab/" rel="noopener noreferrer" target="_blank">Psychophysiology and Behavioral Systems Laboratory</a> at Seattle Children's Research Institute (Seattle, United States of America), where I expanded my research on the neural mechanisms underlying language, cognition, and sensory processing in autism and related neurodevelopmental disorders.</p>
 <p>My research integrates behavioral, genetic, and multimodal neuroimaging approaches to investigate the biological basis of individual differences in neurodevelopment. I use electroencephalography (EEG), magnetoencephalography (MEG), magnetic resonance imaging (MRI), genomics, and advanced statistical approaches to study brain development, language, cognition, and sensory processing across development. My work aims to identify the neural and genetic mechanisms underlying clinical heterogeneity in autism and related neurodevelopmental disorders, discover biologically meaningful biomarkers, and improve our understanding of the pathways linking genes, brain function, and behavior.</p>
 <p>My current research combines neuroimaging, genomics, and deep behavioral phenotyping to investigate autism and related neurodevelopmental disorders in children, infants, and their first-degree relatives. I am particularly interested in identifying early neural markers of developmental outcomes, understanding familial influences on brain function, and translating neurobiological discoveries into clinically meaningful biomarkers for precision medicine and clinical trials.</p>
